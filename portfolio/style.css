@@ -1,0 +1,435 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.header
+{
+    width: 100%;
+    /* background-color: #d6d3d3; */
+    background-color: #081b29;
+    color: white;
+
+    height: 70px;
+    display: flex;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+
+    padding: 0px 10%;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.logo
+{
+    width: 15%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+
+.nav
+{
+    width: 30%;
+    height: 70px;
+    /* background-color: blue; */
+}
+.nav-links
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+
+}
+
+/* banner css */
+.banner
+{
+    width: 100%;
+    height: 500px;
+    /* background-color: #d6d3d3; */
+    background-color: #081b29;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.details
+{
+    width: 60%;
+    padding: 20px;
+    /* background-color: white; */
+
+    font-family: "Montserrat", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.t1
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.t2
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #268bc6;
+}
+
+.desc
+{
+    font-size: 20px;
+    
+}
+
+.cta
+{
+    
+    padding: 16px 40px;
+    font-size: 20px;
+    margin-top: 35px;
+    background-color: #5b5bb0;
+    color: rgb(255, 251, 251);
+    border: 2px solid #5b5bb0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.cta:hover{
+    background-color: transparent;
+    color: #5b5bb0;
+}
+
+.vivek
+{
+    width: 40%;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    /* align-self: flex-end; */
+    padding: 30px;
+
+}
+img
+{
+    width: 275px;
+
+    height: 275px;
+    border-radius: 50%;
+    /* box-shadow: 0 0 10px hsl(202, 68%, 46%); */
+}
+.vkimg
+{
+     box-shadow: 0 0 10px hsl(202, 68%, 46%);
+
+}
+
+/* servicess css */
+
+.services
+{
+    /* height will depend on the content  */
+    width: 100%;
+    padding: 30px 10%;
+    /* background-color: red; */
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: red; */
+    background-color: #081b29;
+    color: white;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+.section-title
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+   
+
+}
+
+.section-child
+{
+    width: 100%;
+    padding: 30px 0px;
+
+    /* background-color: white; */
+
+    margin-top: 30px;
+    display: flex;
+    column-gap: 4%;
+
+}
+
+.service:hover
+/* hover */
+{
+    width: 22%;
+    
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    row-gap: 15px;
+
+    box-shadow: 0 0 5px  hsl(202, 68%, 46%);
+    border-radius: 15px;
+    border-bottom: hsl(202, 68%, 46%);
+
+    cursor: pointer;
+    
+    
+
+}
+
+/* .service-provide
+{
+    width: 22%;
+    height: %;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+} */
+
+
+
+.icon
+{
+    padding: 50px;
+    font-size: 40px;
+    align-self: center;
+    color: white;
+
+}
+
+.service-text
+{
+    font-size: 15px;
+    
+}
+
+.service-btn
+{
+    padding: 12px 25px;
+    background-color: #5b5bb0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/* achivements */
+
+.achievements
+{
+    padding: 30px 10%;
+    background-color:  #081b29;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+
+}
+
+.achievement
+{
+    width: 18%;
+    padding: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.achievements-child
+{
+    column-gap: 2.5%;
+
+}
+
+.number
+{
+    font-size: 35px;
+    
+    font-weight: bold;
+    
+}
+
+.tag
+{
+    font-size: 18px;
+
+}
+
+/* Quote css */
+.quote
+{
+    width: 100%;
+    height: 400px;
+    /* padding: 0px 10%; */
+    background-size: cover;
+    /* background-position: center; */
+    background-image: url('https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?cs=srgb&dl=pexels-pixabay-270408.jpg&fm=jpg://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+    /* background-color: #081b29; */
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+
+}
+
+.quote-area
+{
+    width: 100%;
+    padding: 30px 0%;
+    /* background-color: white; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp-email
+{
+    width: 70%;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+
+}
+
+/* placeholder color css */
+::placeholder
+{
+    color: white;
+}
+
+/* CLIENTS CSS */
+.clients
+{
+    width: 100%;
+    padding: 30px 10%;
+    /* background-color: red; */
+    background-color: #081b29;
+    color: white;
+
+}
+
+.client-section-child
+{
+    /* background-color: white; */
+    column-gap: 5%;
+    /* flex-wrap: wrap; */
+    align-items: center;
+
+    /* justify-content: center ; */
+    
+
+}
+
+.client-img
+{
+    width: 16%;
+    height: 188%;
+
+    /* border-radius: 5%; */
+    /* align-self: flex-end; */
+    transition: .3s;
+
+    cursor: pointer;
+
+    /* filter: grayscale(100%); */
+    
+
+}
+.client-img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+
+/* FOOTER CSS */
+.footer
+{
+    width: 100%;
+    padding: 30px 10%;
+    background-color: #081b29;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+
+}
+
+/* .section-child
+{
+    background-color: white;
+} */
+
+.foot-child
+{
+    width: 22%;
+    padding: 20px 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-list
+
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    
+}
+
+.map
+{
+    width:44%;
+    padding: 0px 0px;
+
+}
+
