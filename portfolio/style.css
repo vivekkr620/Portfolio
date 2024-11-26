@@ -146,9 +146,10 @@ img
     border-radius: 50%;
     /* box-shadow: 0 0 10px hsl(202, 68%, 46%); */
 }
-.vkimg
+.vkimg:hover
 {
      box-shadow: 0 0 10px hsl(202, 68%, 46%);
+     transition-duration: 1s;
 
 }
 
@@ -191,6 +192,11 @@ img
     column-gap: 4%;
 
 }
+.service
+{
+    width: 22%;
+    transition: .3s;
+}   
 
 .service:hover
 /* hover */
